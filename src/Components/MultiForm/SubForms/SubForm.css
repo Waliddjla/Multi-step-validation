@@ -3,6 +3,8 @@
 form p {
     font-size: 25px;
     margin-bottom: 15px;
+    text-align: center;
+    color:#f2994a;
 }
 label {
     font-size: 20px;
@@ -21,19 +23,24 @@ input[type=radio]{
 .diet-form button {
     text-transform: uppercase;
     padding: 10px 20px;
+    background: linear-gradient(to right, #f1bd8f, #f1d378);
     font-size: 18px;
     display: block;
     margin: 20px auto 0;
     cursor: pointer;
 }
 
-
+.diet-form button:hover {
+    background: linear-gradient(to right, #f2994a, #f2c94c);
+}
 /* foodstyle */
 
 
 .checkbox-form p {
     font-size: 25px;
     margin-bottom: 0px;
+    align-items:  center;
+    
 }
 .checkbox-form span {
     display: block;

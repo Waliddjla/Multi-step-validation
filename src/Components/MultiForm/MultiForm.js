@@ -3,6 +3,7 @@ import './MultiForm.css'
 import Indicator from './Indicator/Indicator'
 import CardBegin from './Infos/CardBegin'
 import CardEnd from './Infos/CardEnd'
+import DietForm from './SubForms/DietForm'
 
 export default function MultiForm() {
 
@@ -15,10 +16,17 @@ export default function MultiForm() {
         prefs: {}
 
     })
+    const modifyIndex = index => {
+      setfomIndex(index)
+    }
   return (
     <div className='container-multiform '>
       <Indicator />
-      <CardBegin/>
+
+      {formIndex === 1 ? <CardBegin  modifyIndex = {modifyIndex}/>
+      : formIndex === 2 ? <DietForm modifyIndex = {modifyIndex}/>
+      : "" }
+
       
     </div>
   )
