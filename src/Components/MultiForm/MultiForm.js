@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import './MultiForm.css'
+import Indicator from './Indicator/Indicator'
 
 export default function MultiForm() {
 
@@ -13,8 +14,8 @@ export default function MultiForm() {
 
     })
   return (
-    <div>
-      
+    <div className='container-multiform '>
+      <Indicator />
     </div>
   )
 }
