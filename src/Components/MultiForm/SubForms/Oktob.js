@@ -12,6 +12,7 @@ export default function Oktob(props) {
 
   const preventFunc = (e) => {
     e.preventDefault()
+    props.modifyIndex(6, formData)
   };
   const handleTextarea = (e, pref) => {
     if (pref=== "love"){
@@ -56,8 +57,7 @@ export default function Oktob(props) {
         <button onClick={handelReturn} type="button" className="prev">
           Précédent
         </button>
-        <button onClick={() => props.modifyIndex(6, formData)}
-        >Valider</button>
+        <button>Valider</button>
       </div>
     </form>
   );
