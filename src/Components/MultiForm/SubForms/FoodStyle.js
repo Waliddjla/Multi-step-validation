@@ -1,4 +1,4 @@
-import React, { useRef, useEffect} from "react";
+import React, { useRef} from "react";
 import "./SubForm.css";
 
 export default function FoodStyle(props) {
@@ -34,7 +34,7 @@ export default function FoodStyle(props) {
       <p>Quelles sont tes cuisines préférées ? </p>
       <span>Choix Multiples.</span>
       <label htmlFor="algerien">Algerienne</label>
-      <input ref={addCheck} type="checkbox" id="algerienne" value="algerienne" />
+      <input ref={addCheck} type="checkbox" id="algerien" value="algerien" />
 
       <label htmlFor="italien">Italienne</label>
       <input ref={addCheck} type="checkbox" id="italien" value="italien" />
