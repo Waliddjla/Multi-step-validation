@@ -15,19 +15,19 @@ export default function Indicator() {
         <div className=" line under-line"></div>
         <div className="container-img">
           <div className="bloc-img">
-            <img src={healthy} alt="image" />
+            <img src={healthy} />
             </div>
             <div className="bloc-img">
-            <img src={love} alt="image" />
+            <img src={love}  />
               </div>
             <div className="bloc-img">
-            <img src={allergy} alt="image" />
+            <img src={allergy} />
             </div>
             <div className="bloc-img">
-            <img src={diet} alt="image" />
+            <img src={diet} />
             </div>
             <div className="bloc-img">
-            <img src={thumb} alt="image" />
+            <img src={thumb} />
             </div>
         </div>
       </div>

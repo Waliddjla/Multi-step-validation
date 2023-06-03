@@ -55,7 +55,10 @@ input[type=radio]{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
+
+
 
 .container-nav-btns button {
     text-transform: uppercase;
@@ -63,6 +66,11 @@ input[type=radio]{
     font-size: 18px;
     min-width: 150px;
     margin: 30px 5px 0;
+    background: linear-gradient(to right, #f1bd8f, #f1d378);
+    cursor: pointer;
+}
+.container-nav-btns button:hover {
+    background: linear-gradient(to right, #f2994a, #f2c94c);
 }
 
 /* preferences-form */
