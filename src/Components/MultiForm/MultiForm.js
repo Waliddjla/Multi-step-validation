@@ -36,7 +36,9 @@ export default function MultiForm() {
        : formIndex === 3 ? <FoodStyle modifyIndex={modifyIndex} />
        : formIndex === 4 ? <Allergies modifyIndex={modifyIndex} />
        :formIndex === 5 ? <Oktob  modifyIndex={modifyIndex} />
-       :""}
+       :formIndex === 6 ? <CardEnd modifyIndex={modifyIndex}/>
+       :""
+       }
     </div>
   );
 }
